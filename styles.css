@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navigation {
+    background-color: #d56d3d;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navigation li:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Header */
+.side-info {
+    margin: 0 auto; 
+    background: url(/image-82.png);
+    background-attachment: fixed;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.side-info h1 {
+    color: #2c3e50;
+    font-size: 50px;
+}
+
+.side-info p {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 30px;
+}
+
+/* section 1 */
+.services {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box h3 {
+    color: #2c3e50;
+}
+
+.service-box p {
+    color: #7f8c8d;
+}
+
